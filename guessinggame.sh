@@ -3,7 +3,6 @@
 
 current_dir=`pwd`
 num_files=`ls $current_dir | wc -l | xargs`
-echo $num_files
 
 function play_guess {
 	echo "Please guess the number of files in the current working directory"
